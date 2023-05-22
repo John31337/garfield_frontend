@@ -28,31 +28,75 @@
 .adrides{
     margin:auto;
     z-index: 0;
-    padding-top: 150px;
     position: relative;
 
     &-zone{
         width: 100%;
         position: relative;
         background-repeat: repeat;
-        padding-top: 60px;
         margin-top: -1px;
     }
     
     &-store{
-        margin-left: 10%;
-        margin-right: 85px;
-        margin-top: 5%;
         display: flex;
+        background-color: #fafebd;
+        height: 100vh;
+        padding: 5%;
+        color: black;
 
         > div{
             opacity: 0
         }
 
-        &-girl {
-            flex-basis: 35%;
-            img{
-                width: 100%;
+        &-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+
+            &-logo{
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 40%;
+                }
+            }
+    
+            &-cats {
+                display: flex;
+                justify-content: center;
+
+                img{
+                    height: 80%;
+                }
+    
+                &-thunder2 {
+                    position: absolute;
+                    top: 10%;
+                    left: 10%;
+                    img{
+                        width: 120%;
+                    }
+                }
+    
+                &-thunder3 {
+                    position: absolute;
+                    top: 10%;
+                    right: 10%;
+                    img {
+                        width: 150%;
+                    }
+                }
+            }
+
+            &-social{
+                display: flex;
+                justify-content: space-evenly;
+
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                }
             }
         }
 
@@ -104,28 +148,65 @@
     }
     
     &-mark{
-        margin-top: 10%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #e7e3e0;
+        background-color: #fff9eb;
+
+        &-peep{
+            position: absolute;
+            img {
+                height: 800px;
+            }
+        }
+
+
         > div{
             opacity: 0
         }
 
-        &-girl {
+        &-cat {
             display: flex;
-            justify-content: center;
-            padding-top: 5%;
+            justify-content: flex-end;
             img{
-                height: 400px;
+                width: 60%;
+            }
+
+            &-who{
+                position: relative;
+                top: 300px;
+                img {
+                    width: 100%;
+                }
+            }
+
+            &-title{
+                display: flex;
+                position: relative;
+                font-family: "Open Sans", sans-serif;   
+                font-weight: 800;
+                font-size: 50px;
+                color: black;
+                line-height: 60px;
+                top: 100px;
+            }
+        }
+
+        &-strap{
+            position: relative;
+            width: 100%;
+            padding-top: 50px;
+            opacity: 1 !important;
+
+            img {
+                width: 100%;
             }
         }
 
         &-title{
             display: flex;
             justify-content: center;
-            padding: 5%;
+            padding-top: -800px;
             font-family: "Open Sans", sans-serif;   
             font-weight: 800;
             font-size: 40px;
@@ -136,40 +217,53 @@
     }
 
     &-bag{
-        margin-top: 80px;
         padding-bottom: 50px;
         position: relative;
         display: flex;
+        margin-top: 200px;
+        margin-bottom: 200px;
 
         > div{
             opacity: 0
         }
         
         &-avatar {  
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
             img{
-                height: 100%;
-                border-radius: 20%;
+                height: 600px;
             }
         }
 
         &-content{
-            width: 100%;
             padding-left: 50px;
             padding-right: 50px;
             border-radius: 10px;
-            padding-top: 60px;
             padding-bottom: 30px;
             align-self: center;
+            flex: 1;
+
+            &-cat {
+                position: absolute;
+                bottom: -270px;
+                right: 20px;
+                opacity: 1 !important;
+                img {
+                    width: 550px;
+                    opacity: 1 !important;
+                }
+            }
 
             .bag-description{
                 font-family: "Open Sans", sans-serif;   
                 &-title{
                     font-weight: 800;
                     padding-bottom: 45px;
-                    font-size: 45px !important;
-                    color: #fff;
-                    line-height: 50px;
+                    font-size: 50px;
+                    color: black;
+                    line-height: 60px;
                     justify-content: center;
                     display: flex;
                 }
@@ -186,7 +280,6 @@
 
     &-keyfeature{
         background-color: #e7e3e0;
-        padding: 100px;
         display: flex;
         flex-direction: column;
         
@@ -197,9 +290,9 @@
         &-title {
             font-weight: 800;
             padding-bottom: 45px;
-            font-size: 45px !important;
+            font-size: 50px !important;
             color: #000;
-            line-height: 50px;
+            line-height: 60px;
             display: flex;
         }
         &-description {
@@ -214,6 +307,7 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
+            padding: 100px;
 
             &-props{
                 display: flex;
@@ -225,6 +319,8 @@
 
             &-charts{
                 display: flex;
+                justify-content: center;
+
                 &-chart{
                     flex: 1;
                     img {
@@ -234,6 +330,7 @@
 
                 &-text{
                     flex: 1;
+                    justify-content: center;
                 }
 
                 &-title {
@@ -251,12 +348,18 @@
                     line-height: 50px;
                     display: flex;
                 }
+
+                &-crown2 {
+                    display: flex;
+                    width: 100%;
+                    justify-content: flex-end;
+                }
             }
         }
     }
 
     .button {
-        background: #4472c4;
+        background: #dec4e3;
         border-radius: 0.25em;
         color: #fff;
         display: inline-block;

@@ -13,40 +13,60 @@
           <div class="adrides">
             {# About #}
             <div class="adrides-store animation-fade-slide-down">
-              <div class="adrides-store-girl" >
-                <img src="../images/addams/big-dog.png"/>
-              </div>
-              <div class="adrides-store-content">
-                <div class="store-description">
-                  <div>
-                    <p class="store-description-title">Buckle up and get ready to rock with $PEANUT, the memecoin that embodies all the radness and attitude of yours truly </p>
-                    <p class="store-description-content">The dogs have had their day, it’s time for peanut to take own time.</p>
-                    <p class="store-description-contract"><b>Contract</b> : 0x60f80d14a16171aab4518cdcd1a98f06b6875988</p>
+              <div class="adrides-store-container">
+                <div class="adrides-store-container-logo" >
+                  <img src="../images/addams/mark.png"/>
+                </div>
+                <div class="adrides-store-container-cats">
+                  <img src="../images/addams/pngwing.com.png"/>
+                  <img src="../images/addams/pngwing.com (2).png"/>
+                  <img src="../images/addams/pngwing.com (3).png"/>
+
+                  {# <div class="adrides-store-container-cats-thunder2">
+                    <img src="../images/addams/thunder2.png"/>
                   </div>
-                  <div class="store-description-social">
-                    <img src="../images/addams/telegram.png"/>
-                    <img src="../images/addams/twitter.png"/>
-                    <img src="../images/addams/etherscan.png"/>
-                  </div>
+                  <div class="adrides-store-container-cats-thunder3">
+                    <img src="../images/addams/thunder3.png"/>
+                  </div> #}
+                </div>
+                <div class="adrides-store-container-social">
+                  <img src="../images/addams/telegram.png"/>
+                  <img src="../images/addams/twitter.png"/>
+                  <img src="../images/addams/etherscan.png"/>
                 </div>
               </div>
             </div>
 
             {# Mark #}
             <div class="adrides-mark animation-fade-slide-down">
-              <div class="adrides-mark-girl" >
-                <img src="../images/addams/circleLogo.png"/>
+              <div class="adrides-mark-peep" >
+                <img src="../images/addams/peep.png"/>
+              </div>
+              <div class="adrides-mark-cat" >
+                <div class="adrides-mark-cat-title">
+                  ABOUT
+                </div>
+                <div class="adrides-mark-cat-who">
+                  <img src="../images/addams/who.png"/>
+                </div>
+                <img src="../images/addams/2.png"/>
               </div>
               <div>
-                <p class="adrides-mark-title">Buckle up and get ready to rock with $PEANUT, the memecoin that embodies all the radness and attitude of yours truly </p>
+                <p class="adrides-mark-title">$Garfield is most memecoin. <br/> It is one of the most powerful and safety.</p>
+              </div>
+              <div class="adrides-mark-strap" >
+                <img src="../images/addams/strap.png"/>
               </div>
             </div>
 
             {# Buy #}
             <div class="adrides-bag animation-fade-slide-down">
+              <div class="adrides-bag-avatar" >
+                <img src="../images/addams/1.png"/>
+              </div>
               <div class="adrides-bag-content">
                 <div class="bag-description">
-                  <p class="bag-description-title">Buy $Peanut!</p>
+                  <p class="bag-description-title">Buy $Garfield!</p>
                   <div class="iframe-cont">
                     <iframe src="https://app.uniswap.org/#/swap?outputCurrency=0x25722cd432d02895d9be45f5deb60fc479c8781e&amp;inputCurrency=ETH" 
                     height="535px" 
@@ -62,27 +82,28 @@
                     </iframe>
                   </div>
                 </div>
+                <div class="adrides-bag-content-cat">
+                  <img src="../images/addams/sleep.png"/>
+                </div>
               </div>
-              <div class="adrides-bag-avatar" >
-                <img src="../images/addams/characterY.png"/>
-              </div>
+
             </div>
             
             {# Tokenomics #}
             <div class="adrides-keyfeature">
               <div class="adrides-keyfeature-contents">
-                <div class="adrides-keyfeature-props">
-                  <p class="adrides-keyfeature-title">Tokenomics</p>
-                  <p class="adrides-keyfeature-description">Total Supply: <br/> 65,000,000,000,000</p>
-                </div>
                 <div class="adrides-keyfeature-contents-charts">
                   <div class="adrides-keyfeature-contents-charts-chart">
-                    <img src="../images/addams/chart.png"/>
+                    <img src="../images/addams/crown.png"/>
                   </div>
                   <div class="adrides-keyfeature-contents-charts-text">
                     <div class="button">Buy Now!</div>
-                    <p class="adrides-keyfeature-contents-charts-title">No Taxes, No Bullshit!</p>
+                    <p class="adrides-keyfeature-title">Tokenomics</p>
+                    <p class="adrides-keyfeature-contents-charts-title">No Taxes, No Bullshit, the most safe way to make money.</p>
                     <p class="adrides-keyfeature-contents-charts-description">90% of the tokens were sent to the liquidity pool, LP tokens were burnt, and contract is renounced. The remaining 8% of the supply is being held in a multi-sig wallet only to be used as tokens for future centralized exchange listing, bridges, and liquidity pools.</p>
+                    <div class="adrides-keyfeature-contents-charts-crown2">
+                      <img src="../images/addams/crown2.png"/>
+                    </div>
                   </div>
                 </div>
               </div>

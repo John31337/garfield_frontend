@@ -36,13 +36,13 @@ body{
   color: var(--gray);
   font-family: 'Montserrat', sans-serif;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../images/addams/body1.png");
+  // background-image: url("../images/addams/body1.png");
+  background-color: #fff9eb;
   background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
-  background-color: #202025;
 }
 
 // #content{

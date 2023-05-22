@@ -10,7 +10,6 @@ const Header = () => {
   const about = document.querySelector('.adrides-store');
   const buy = document.querySelector('.adrides-bag');
   const tokenomics = document.querySelector('.adrides-keyfeature');
-  
 
   /**
    * Callback for our scroll event - just
@@ -42,7 +41,7 @@ const Header = () => {
       ele.classList.add(animation);
     } else 
     {
-      ele.classList.remove(animation);
+      // ele.classList.remove(animation);
     }
   }
 
