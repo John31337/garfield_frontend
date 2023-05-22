@@ -1,0 +1,113 @@
+{% extends '_layouts/base.nunjucks' %}
+{% import '_modules/header/header.nunjucks' as header %}
+
+{% block content %}
+<header class="zone zone-header">
+  {{ header.content() }}
+</header>
+
+<main id="content" style="overflow-x:hidden">
+    <div class="adrides-zone"> 
+      <div class="wrapper">
+        <div class="adries-border">    
+          <div class="adrides">
+            {# About #}
+            <div class="adrides-store animation-fade-slide-down">
+              <div class="adrides-store-girl" >
+                <img src="../images/addams/big-dog.png"/>
+              </div>
+              <div class="adrides-store-content">
+                <div class="store-description">
+                  <div>
+                    <p class="store-description-title">Buckle up and get ready to rock with $PEANUT, the memecoin that embodies all the radness and attitude of yours truly </p>
+                    <p class="store-description-content">The dogs have had their day, it’s time for peanut to take own time.</p>
+                    <p class="store-description-contract"><b>Contract</b> : 0x60f80d14a16171aab4518cdcd1a98f06b6875988</p>
+                  </div>
+                  <div class="store-description-social">
+                    <img src="../images/addams/telegram.png"/>
+                    <img src="../images/addams/twitter.png"/>
+                    <img src="../images/addams/etherscan.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {# Mark #}
+            <div class="adrides-mark animation-fade-slide-down">
+              <div class="adrides-mark-girl" >
+                <img src="../images/addams/circleLogo.png"/>
+              </div>
+              <div>
+                <p class="adrides-mark-title">Buckle up and get ready to rock with $PEANUT, the memecoin that embodies all the radness and attitude of yours truly </p>
+              </div>
+            </div>
+
+            {# Buy #}
+            <div class="adrides-bag animation-fade-slide-down">
+              <div class="adrides-bag-content">
+                <div class="bag-description">
+                  <p class="bag-description-title">Buy $Peanut!</p>
+                  <div class="iframe-cont">
+                    <iframe src="https://app.uniswap.org/#/swap?outputCurrency=0x25722cd432d02895d9be45f5deb60fc479c8781e&amp;inputCurrency=ETH" 
+                    height="535px" 
+                    width="100%"
+                    style="
+                      border: 0; 
+                      margin: 0 auto; 
+                      margin-bottom: .5rem; 
+                      display: block; 
+                      border-radius: 1rem; 
+                      /* max-width: 960px; 
+                      min-width: 300px;">
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="adrides-bag-avatar" >
+                <img src="../images/addams/characterY.png"/>
+              </div>
+            </div>
+            
+            {# Tokenomics #}
+            <div class="adrides-keyfeature">
+              <div class="adrides-keyfeature-contents">
+                <div class="adrides-keyfeature-props">
+                  <p class="adrides-keyfeature-title">Tokenomics</p>
+                  <p class="adrides-keyfeature-description">Total Supply: <br/> 65,000,000,000,000</p>
+                </div>
+                <div class="adrides-keyfeature-contents-charts">
+                  <div class="adrides-keyfeature-contents-charts-chart">
+                    <img src="../images/addams/chart.png"/>
+                  </div>
+                  <div class="adrides-keyfeature-contents-charts-text">
+                    <div class="button">Buy Now!</div>
+                    <p class="adrides-keyfeature-contents-charts-title">No Taxes, No Bullshit!</p>
+                    <p class="adrides-keyfeature-contents-charts-description">90% of the tokens were sent to the liquidity pool, LP tokens were burnt, and contract is renounced. The remaining 8% of the supply is being held in a multi-sig wallet only to be used as tokens for future centralized exchange listing, bridges, and liquidity pools.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="footer-zone">
+    {# <div class="footer-wrapper"> #}
+      <div class="logo-section">
+        <img src="../images/addams/Logo_Addams_Menu.png" />
+        <p>TM & © 2023 Universal Pictures. All Rights Reserved.</p>
+      </div>
+      <div class="list-section">
+        {# <img src="../images/wonder/coppa.png" /> #}
+        <div class="list">
+          <a href="#"><img src="../images/addams/twitter.png"/></a>
+          <a href="#"><img src="../images/addams/telegram.png"/></a>
+          <a href="#"><img src="../images/addams/etherscan.png"/></a>
+        </div>
+      </div>
+    {# </div>   #}
+  </div>
+</main>
+{% endblock %}

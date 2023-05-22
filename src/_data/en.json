@@ -1,0 +1,47 @@
+{
+	"global": {
+		"lang": "en",
+		"titleTag": "Peanuts Token Dapp",
+		
+
+		"description": "Peanuts is meme coin with 100% LP. You can enjoy peanuts game society with peanuts coin too."
+	},
+
+	"header": {
+		"nav":[
+			{
+				"name": "HOME",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "/#"
+			},
+			{
+				"name": "WHAT",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "#what"
+			},
+			{
+				"name": "TOKENOMICS",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "#tokenomics"
+			},
+			{
+				"name": "TELEGRAM",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "https://t.me/addamsceo",
+				"target": ""
+			},
+			{
+				"name": "TWITTER",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "https://twitter.com/addamsceo",
+				"target": ""
+			}
+		]
+		
+	}
+}
